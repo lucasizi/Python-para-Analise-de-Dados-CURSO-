@@ -3,7 +3,7 @@ import pandas as pd
 import psycopg2
 
 # %%
-caminho_do_arquivo = r"C:\Users\edmil\OneDrive\Documentos\Cursos\Python - SGBDS - Arquivos\Origem de dados\V_OCORRENCIA_AMPLA.json"
+caminho_do_arquivo = r"C:\Users\lucas\OneDrive\Documentos\GitHub\Python para Analise de Dados (CURSO)\Origem de dados\V_OCORRENCIA_AMPLA.json"
 df = pd.read_json(caminho_do_arquivo, encoding='utf-8-sig')
 
 # %%
